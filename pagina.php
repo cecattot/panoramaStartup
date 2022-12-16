@@ -5,7 +5,7 @@ foreach ($a as $item) {
     if (isset($item['siteDaStartup'])) {
        echo $item['siteDaStartup'];
     } else {
-        echo $item['site'];
+        echo "";
     }
     echo ', ' . $item['ano'] . ', ' . $item['municipio'] ."<br>";
 }
